@@ -1,2 +1,5 @@
-package strategy;public interface MailCode {
+package strategy;
+
+public interface MailCode {
+    String generate(Client client);
 }
