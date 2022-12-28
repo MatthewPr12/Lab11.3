@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f8af11-84b4-4b27-85d4-ae92f7b3df1d" name="Changes" comment="java-version" />
+    <list default="true" id="c2f8af11-84b4-4b27-85d4-ae92f7b3df1d" name="Changes" comment="ci">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/MailBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/strategy/MailBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/ClientTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,36 +66,11 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="strategy" />
       <recent name="builder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClientTest.testBuilder">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.Client" />
-      <module name="Lab11.3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MailSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategy.MailSender" />
-      <module name="Lab11.3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MailBoxTest.testSendAll">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proxy.Main" />
       <module name="Lab11.3" />
@@ -119,12 +100,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MailBoxTest.testAddClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab11.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.MailBoxTest" />
+      <option name="METHOD_NAME" value="testAddClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailBoxTest.testAddMailInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab11.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.MailBoxTest" />
+      <option name="METHOD_NAME" value="testAddMailInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailBoxTest.testSendAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab11.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.MailBoxTest" />
+      <option name="METHOD_NAME" value="testSendAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MailBoxTest.testSendAll" />
+        <item itemvalue="JUnit.MailBoxTest.testAddClient" />
+        <item itemvalue="JUnit.MailBoxTest.testAddMailInfo" />
         <item itemvalue="JUnit.ClientTest.testBuilder" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MailSender" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +172,7 @@
       <workItem from="1670075382903" duration="214000" />
       <workItem from="1670100153987" duration="316000" />
       <workItem from="1670222770953" duration="232000" />
-      <workItem from="1672167044596" duration="2740000" />
+      <workItem from="1672167044596" duration="6685000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1670100301132</created>
@@ -165,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672228008245</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java-version">
+      <created>1672228263592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672228263592</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ci">
+      <created>1672228351370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672228351370</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +230,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value=" actions added" />
     <MESSAGE value="java-version" />
-    <option name="LAST_COMMIT_MESSAGE" value="java-version" />
+    <MESSAGE value="ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
